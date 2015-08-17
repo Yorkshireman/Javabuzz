@@ -24,4 +24,6 @@ Javabuzz.prototype.says = function(number) {
   } else if (this.isDivisibleByFive(number)) {
     return "Buzz";
   }
+
+  return number;
 };

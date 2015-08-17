@@ -52,5 +52,9 @@ describe('Javabuzz', function() {
     it('"Javabuzz" when a number is divisible by 3 and 5', function(){
       expect(javabuzz.says(15)).toEqual("Javabuzz");
     });
+
+    it('the given number when the number is neither divisible by 3 nor 5', function(){
+      expect(javabuzz.says(7)).toEqual(7);
+    });
   });
 });
