@@ -39,4 +39,10 @@ describe('Javabuzz', function() {
       expect(javabuzz._isDivisibleBy(10, 15)).toBe(false);
     });
   });
+
+  describe('when playing, says', function(){
+    it('"Java" when a number is divisible by 3', function(){
+      expect(javabuzz.says(3)).toEqual("Java");
+    });
+  });
 });
