@@ -1,17 +1,19 @@
 A simple 'Fizz Buzz' game in Javascript. Playable in the console:
 
-command line:
+command line:  
+`open SpecRunner.html`
 
-open SpecRunner.html
+console:  
+`javabuzz = new Javabuzz();`
 
-console:
+`javabuzz.says(1);`  
+`=> 1`
 
-javabuzz = new Javabuzz();
+`javabuzz.says(3):`  
+`=> "Java"`
 
-javabuzz.says(1);
+`javabuzz.says(5);`  
+`=> "Buzz"`
 
-javabuzz.says(3);
-
-javabuzz.says(5);
-
-javabuzz.says(15);
+`javabuzz.says(15);`  
+`=> "Javabuzz"`
